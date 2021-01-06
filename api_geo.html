@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <h1>🔘 Weather API and geolocation 🌎</h1>
+
+    <form action="" id="cityForm">
+      <input type="text" id="search" placeholder="Search" />
+      <input type="submit" id="submit" value="Search" />
+      <h2 id="title">How is the weather in...?</h2>
+      <div class="main">
+        <p>Temperature: <span id="temperature"></span></p>
+        <p>
+          Max and min temperature: <span id="max"></span> |
+          <span id="min"></span>
+        </p>
+        <p>Weather description: <span id="description"></span></p>
+      </div>
+    </form>
+
+    <div class="current">
+      <button>Get weather in current location</button>
+      <h4>Current location: <span id="geoCity"></span></h4>
+      <p>Location: <span id="location"></span></p>
+      <p>Temperature: <span id="geoTemp"></span></p>
+      <p>
+        Max and min temperature: <span id="geoMax"></span> |
+        <span id="geoMin"></span>
+      </p>
+      <p>Weather description: <span id="geoDescription"></span></p>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>

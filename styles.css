@@ -1,0 +1,68 @@
+body {
+  text-align: center;
+}
+
+/* WEATHER API STYLES */
+
+form {
+  border: 2px solid rgb(47, 83, 182);
+  width: 400px;
+  margin: 50px auto 0px;
+  padding: 20px;
+}
+
+input[type="text"] {
+  width: 60%;
+  padding: 10px;
+  border: none;
+  border-bottom: 1px solid black;
+}
+
+input[type="text"]:focus {
+  outline: none;
+}
+input[type="submit"] {
+  width: 20%;
+  padding: 10px;
+  border-radius: 15px;
+  border: none;
+}
+input[type="submit"]:focus {
+  outline: none;
+}
+
+.main {
+  text-align: left;
+  color: rgb(47, 83, 182);
+  margin-left: 20px;
+}
+
+/* GEOLOCATION STYLES */
+
+button {
+  display: block;
+  margin: 50px auto 20px;
+  padding: 20px 30px;
+  border: none;
+  border-radius: 25px;
+  background-color: rgb(47, 83, 182);
+  color: #ffffff;
+}
+
+button:hover {
+  background-color: rgb(34, 67, 156);
+}
+
+button:focus {
+  outline: none;
+}
+
+.current {
+  width: 500px;
+  text-align: left;
+  margin: 20px auto;
+}
+
+.current h4 {
+  text-align: center;
+}
